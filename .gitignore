@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+algo22/.classpath
+algo22/.project
+algo22/.settings/org.eclipse.jdt.core.prefs
+algo22/src/module-info.java
