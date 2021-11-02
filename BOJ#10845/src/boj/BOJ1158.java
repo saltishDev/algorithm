@@ -1,4 +1,4 @@
-package java;
+package boj;
 
 /*
  * @author MS
@@ -20,8 +20,8 @@ package java;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ1158 {
@@ -31,22 +31,15 @@ public class BOJ1158 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		StringBuilder sb = new StringBuilder("<");
-		List<Integer> list = new ArrayList<>();
+		Queue<Integer> list = new LinkedList<>();
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
-		int idx = -1;
 		
 		for(int i=1; i<=N; i++)
 			list.add(i);
 		
-		while(!list.isEmpty()) {			
-			for(int i=0; i<K; i++) 
-				idx++;
-					
-			if(idx >= list.size())
-				idx %= list.size();		
-			sb.append(list.get(idx)).append(list.size() == 1 ? ">" : ", " );
-			list.remove(idx--);
+		while(!list.isEmpty()) {
+			
 		}
 		System.out.println(sb);
 		

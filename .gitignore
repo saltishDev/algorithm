@@ -25,3 +25,6 @@ algo22/.classpath
 algo22/.project
 algo22/.settings/org.eclipse.jdt.core.prefs
 algo22/src/module-info.java
+*.classpath
+*.project
+*.prefs
