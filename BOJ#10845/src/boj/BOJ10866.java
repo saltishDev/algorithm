@@ -4,7 +4,7 @@ package boj;
  * 	@author MS
  * 	@date 2021. 11. 02.
  *	 덱
- * 	https://www.acmicpc.net/problem/1158
+ * 	https://www.acmicpc.net/problem/10866
  * 	정수를 저장하는 덱(Deque)를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.
 
 	명령은 총 여덟 가지이다.
